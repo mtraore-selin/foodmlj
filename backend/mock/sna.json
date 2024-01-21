@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "64cdcae4bf7229f4b2d36c99",
+    "name": "Classic Butter",
+    "image": "https://img.grouponcdn.com/deal/fxNTFzkg8GFcaKnMAZmK/aL-700x420/v1/c700x420.jpg",
+    "category": "Snaks",
+    "type": "Savory",
+    "price": 4.99,
+    "rating": 4.7,
+    "description": "Traditional buttered popcorn, a timeless favorite.",
+    "createdAt": "2023-08-04T09:00:00.000Z",
+    "updatedAt": "2023-08-04T09:00:00.000Z"
+  },
+  {
+    "_id": "64cdcba8bf7229f4b2d36c9a",
+    "name": "Spicy Jalapeno",
+    "image": "https://img.grouponcdn.com/deal/fxNTFzkg8GFcaKnMAZmK/aL-700x420/v1/c700x420.jpg",
+    "category": "Snaks",
+    "type": "Spicy",
+    "price": 4.79,
+    "rating": 4.2,
+    "description": "Popcorn with a fiery kick of jalapeno spice.",
+    "createdAt": "2023-08-04T09:30:00.000Z",
+    "updatedAt": "2023-08-04T09:30:00.000Z"
+  }
+]

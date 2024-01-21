@@ -1,0 +1,125 @@
+[
+  {
+    "_id": "645c86de8879d63d2c93b23a",
+    "name": "Margarita Pizza",
+    "image": "https://cdn.loveandlemons.com/wp-content/uploads/2019/09/margherita-pizza.jpg",
+    "category": "pizza",
+    "type": "Veg",
+    "price": 18,
+    "rating": 4,
+    "description": "Mozzerella,Tomato",
+    "createdAt": "2023-05-11T06:10:38.496Z",
+    "updatedAt": "2023-05-11T06:10:38.496Z",
+    "__v": 0
+  },
+  {
+    "_id": "646ca6473c4a8304748d86c4",
+    "name": "hawaiin Pizza",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/1a/61/81/0e/mutton-briyani.jpg",
+    "category": "pizza",
+    "type": "Non Veg",
+    "price": 23,
+    "rating": 5,
+    "description": "Hawaiin Pizza",
+    "createdAt": "2023-05-23T11:40:55.597Z",
+    "updatedAt": "2023-05-23T11:40:55.597Z",
+    "__v": 0
+  },
+  {
+    "_id": "64806d972fc767ebe8b80f25",
+    "name": "Tropical Pizza",
+    "image": "https://th.bing.com/th/id/R.116294eec08a415fbb04dce319cd12d5?rik=2msGd3FtuJizxA&pid=ImgRaw&r=0",
+    "category": "pizza",
+    "type": "Veg",
+    "price": 21,
+    "rating": 5,
+    "description": "This is Tomato Pizza with pineapple and ham on it",
+    "createdAt": "2023-06-07T11:44:23.885Z",
+    "updatedAt": "2023-06-07T11:44:23.885Z",
+    "__v": 0
+  },
+  {
+    "_id": "64c4d49ae68efd6770d84327",
+    "name": "West Coast Pizza",
+    "image": "https://cdn.loveandlemons.com/wp-content/uploads/2019/09/margherita-pizza.jpg",
+
+    "category": "pizza",
+    "type": "Veg",
+    "price": 19,
+    "rating": 5,
+    "description": "large pizza",
+    "createdAt": "2023-07-29T08:58:02.685Z",
+    "updatedAt": "2023-07-29T08:58:02.685Z",
+    "__v": 0
+  },
+  {
+    "_id": "652ed415ef916cee677187f7",
+    "name": "bamat ",
+    "image": "https://cdn.loveandlemons.com/wp-content/uploads/2019/09/margherita-pizza.jpg",
+
+    "category": "pizza",
+    "type": "Veg",
+    "price": 21,
+    "rating": 5,
+    "description": "wd",
+    "createdAt": "2023-10-17T18:36:05.062Z",
+    "updatedAt": "2023-10-17T18:36:05.062Z",
+    "__v": 0
+  },
+  {
+    "_id": "652f01292ff16ac07657c7a7",
+    "name": "bas ",
+    "image": "https://cdn.loveandlemons.com/wp-content/uploads/2019/09/margherita-pizza.jpg",
+
+    "category": "pizza",
+    "type": "Veg",
+    "price": 21,
+    "rating": 5,
+    "description": "wdWE",
+    "createdAt": "2023-10-17T21:48:25.841Z",
+    "updatedAt": "2023-10-17T21:48:25.841Z",
+    "__v": 0
+  },
+  {
+    "_id": "65304a94d0a7e3d05065b9f1",
+    "name": "Sesame Toast",
+    "image": "https://cdn.loveandlemons.com/wp-content/uploads/2019/09/margherita-pizza.jpg",
+
+    "category": "pizza",
+    "type": "Veg",
+    "price": 120,
+    "rating": 5,
+    "description": "4 pieces",
+    "createdAt": "2023-10-18T21:13:56.774Z",
+    "updatedAt": "2023-10-18T21:13:56.774Z",
+    "__v": 0
+  },
+  {
+    "_id": "6530a7ca79bf11b2b9fb1015",
+    "name": "Spring Roll",
+    "image": "https://cdn.loveandlemons.com/wp-content/uploads/2019/09/margherita-pizza.jpg",
+
+    "category": "pizza",
+    "type": "Veg",
+    "price": 120,
+    "rating": 5,
+    "description": "Ready in 35min",
+    "createdAt": "2023-10-19T03:51:38.053Z",
+    "updatedAt": "2023-10-19T03:51:38.053Z",
+    "__v": 0
+  },
+  {
+    "_id": "657840d8fe37d7926277a8a9",
+    "name": "Demo",
+    "image": "https://cdn.loveandlemons.com/wp-content/uploads/2019/09/margherita-pizza.jpg",
+
+    "category": "pizza",
+    "type": "Veg",
+    "price": 25,
+    "rating": 5,
+    "description": "demo test",
+    "createdAt": "2023-12-12T11:15:36.643Z",
+    "updatedAt": "2023-12-12T11:15:36.643Z",
+    "__v": 0
+  }
+]
