@@ -59,7 +59,6 @@ export const deleteItemFromWishlist = (id) => async (dispatch, getState) => {
         Authorization: `Bearer ${user?.token}`,
       },
     });
-    // console.log(data)
 
     dispatch({ type: DELETE_WISHLIST_ITEM, payload: id });
   } catch (error) {

@@ -4,16 +4,18 @@ import SideBar from "../components/SideBar";
 import Header from "../components/Header";
 import { collection, onSnapshot } from "firebase/firestore";
 import { doc, updateDoc } from "firebase/firestore";
-import { db, firestore } from "../firebase";
+import { auth, db, firestore } from "../firebase";
 import { IoMdAdd, IoMdRemove } from "react-icons/io";
 import LeftSide from "../components/LeftSide";
 import "../styles/admin.css";
+import { createUserWithEmailAndPassword } from "firebase/auth";
 
 const Admin = () => {
-  let [data, setData] = useState([]);
+  const [data, setData] = useState([]);
   useEffect(() => {
     getData();
   }, []);
+
   const getData = async () => {
     onSnapshot(collection(firestore, db.pizzas), (snapshot) => {
       const allData = [];
@@ -29,6 +31,7 @@ const Admin = () => {
       inStockItem: item.inStockItem + 1,
     }).then(() => console.log("updated"));
   };
+
   const decreaseQty = (item) => {
     const ref = doc(firestore, db.pizzas, item.name);
     if (item.inStockItem >= 0) {

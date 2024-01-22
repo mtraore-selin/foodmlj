@@ -20,27 +20,6 @@ const AddProduct = () => {
     e.preventDefault();
     setLoading(true);
 
-    // Upload image to Cloudinary
-    // const formData = new FormData();
-    // formData.append("file", img); // Assuming 'img' contains the image file
-    // formData.append("upload_preset", process.env.REACT_APP_CLOUDINARY_PRESET);
-
-    // const cloudinaryResponse = await pizza.post(
-    //   `${process.env.REACT_APP_CLOUDINARY_BASE_URL}/${process.env.REACT_APP_CLOUDINARY_CLOUD_NAME}/image/upload`,
-    //   formData
-    // );
-
-    // const imageUrl = cloudinaryResponse.data.secure_url;
-
-    // // Use Cloudinary URL as the image
-    // await pizza.post(`/api/products/add-product`, {
-    //   name,
-    //   description: des,
-    //   price: parseInt(price),
-    //   image: imageUrl, // Use the Cloudinary URL as the image
-    //   category,
-    // });
-
     await pizza.post("/api/products/add-product", {
       name,
       description: des,
@@ -48,13 +27,13 @@ const AddProduct = () => {
       image: img,
       category,
     });
+
     setDoc(doc(firestore, db.pizzas, name), {
       name,
       inStockItem: 7,
       outOfStock: false,
       img,
     });
-    console.log("Show set to true:", show);
     setLoading(false);
     setShow(true);
   };

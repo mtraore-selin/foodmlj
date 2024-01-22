@@ -17,7 +17,6 @@ const Shipping = () => {
   const deleviryPrice = cartPrice > 500 || cartPrice === 0 ? 0 : 50;
   const discount = 0;
   const totalPrice = cartPrice + deleviryPrice - discount;
-  // const auth = useSelector(state=>state.user.user)
   const location = useLocation();
   const path = location.pathname;
   const navigate = useNavigate();

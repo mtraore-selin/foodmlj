@@ -7,9 +7,9 @@ import Message from "../components/Message";
 import { useDispatch, useSelector } from "react-redux";
 import SkeletonArticle from "../skeleton/SkeletonArticle";
 import { getWishlist } from "../actions/wishlist";
+import { EMPTY_WISHLIST_IMAGE, OOPS_IMAGE, OOPS_MESSAGE } from "../constants";
 const Wishlist = () => {
   const error = useSelector((state) => state.wishlist?.error);
-  //    console.log(query)
   const [show, setShow] = useState(error ? true : false);
   const data = useSelector((state) => state.wishlist.wishlistItems);
   const loading = useSelector((state) => state.wishlist.loading);
@@ -40,18 +40,15 @@ const Wishlist = () => {
               )}
               <Message
                 showModal={show}
-                msg={"Opps!,Something went wrong"}
-                img={"https://image.flaticon.com/icons/png/512/835/835408.png"}
+                msg={OOPS_MESSAGE}
+                img={OOPS_IMAGE}
                 type="error"
                 closeModal={setShow}
               />
             </div>
           ) : (
             <div>
-              <img
-                src="https://aquamarineexotic.com/adminpanel/assets/images/empty-wishlist.png"
-                alt=""
-              />
+              <img src={EMPTY_WISHLIST_IMAGE} alt="empty-wishlist" />
             </div>
           )}
         </div>

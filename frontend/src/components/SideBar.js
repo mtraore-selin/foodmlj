@@ -8,6 +8,7 @@ import { FiLogOut } from "react-icons/fi";
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../actions/auth";
 import { showSideBar } from "../actions";
+import { MdAdminPanelSettings } from "react-icons/md";
 const SideBar = () => {
   const dispatch = useDispatch();
   const user = useSelector((state) => state.user.user);
@@ -53,6 +54,14 @@ const SideBar = () => {
             <BsGear />
           </div>
         </Link>
+
+        {user?.isAdmin && (
+          <Link to="/admin-side">
+            <div className={`icon ${path === "/admin-side" && "active"}`}>
+              <MdAdminPanelSettings />
+            </div>
+          </Link>
+        )}
       </div>
       <div className="bottom-icon">
         {user && (

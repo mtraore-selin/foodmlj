@@ -7,6 +7,7 @@ import pizza from "../apis/pizza";
 import logo from "../assests/pizzaSilce.png";
 import Message from "../components/Message";
 import Spinner from "../components/Spinner";
+import { OOPS_IMAGE } from "../constants";
 const OrderSummry = () => {
   const location = useLocation();
   const path = location.pathname;
@@ -272,7 +273,7 @@ const OrderSummry = () => {
         showModal={showModal}
         closeModal={setShowModal}
         msg={"Opss, faild to create order!"}
-        img={"https://image.flaticon.com/icons/png/512/835/835408.png"}
+        img={OOPS_IMAGE}
         type="error"
       />
     </>

@@ -15,7 +15,6 @@ const AllOrders = () => {
         Authorization: `Bearer ${user?.token}`,
       },
     });
-    //  console.log(data)
     setOrders(data);
   };
 
